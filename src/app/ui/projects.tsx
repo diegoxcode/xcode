@@ -27,7 +27,7 @@ const Projects = () => {
                             <div className=''>
                                 <div className='flex items-center'>
                                     <label className="border mr-2 md:mr-0 border-solid border-[#e3e3e3] md:left-0 xl:absolute md:relative md:top-0 xl:top-10 xl:left-10 rounded-full px-4 py-1 text-[#767676]" htmlFor="">001</label>
-                                    <span className='xl:absolute md:ml-3 md:relative md:bottom-0 xl:bottom-5 md:left-0 xl:left-10 text-[28px] font-bold'>Plataforma de colegio</span>
+                                    <span className='xl:absolute md:ml-3 md:relative md:bottom-0 xl:bottom-5 md:left-0 xl:left-10 text-[28px] font-bold'>Software Clínica</span>
                                 </div>
                                 <p className='md:block xl:hidden text-lg text-[#767676] mt-5 text-left'>Esta solución mejoró la experiencia de enseñanza y aprendizaje, facilitando la gestión de tareas y la comunicación en tiempo real.</p>
                             </div>

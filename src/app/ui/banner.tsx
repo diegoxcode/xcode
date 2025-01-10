@@ -33,11 +33,11 @@ const Banner = () => {
                 <div
                     style={{ opacity }}
                     className="flex sticky top-0 justify-center items-center h-screen md:max-h-96 xl:pt-[210px] md:pt-[120px] max-w-screen-lg mx-auto text-center">
-                    <div className='relative text-center mt-56 md:mt-24' style={{ transform: `scale(${scale})` }} >
+                    <div className='relative text-center mt-10 md:mt-24' style={{ transform: `scale(${scale})` }} >
                         <div className='text-center  w-fit mx-auto mb-4'>
                             <span className='flex items-center border border-solid border-[#f5f5f5] rounded-full pr-4'><div className='rounded-full bg-[#dcb2ff] p-2'><Icon className='' icon="file-icons:shuriken" width="20" height="20" color='#fff' /></div><div className='ml-2 text-[#fff]'>Soluciones de impacto</div></span>
                         </div>
-                        <h1 className="xl:text-[70px] text-[38px] w-10/12 mx-auto md:text-[54px] md:w-[800px] font-[900] text-white leading-[60px] text-shadow:0_0_10px_rgba(255,255,255,0.8)">
+                        <h1 className="xl:text-[70px] text-[28px] w-10/12 mx-auto md:text-[54px] md:w-[800px] font-[900] text-white leading-[35px] md:leading-[60px] text-shadow:0_0_10px_rgba(255,255,255,0.8)">
                             Desarrollamos{" "}
                             <span className="[text-shadow:0_0_10px_rgba(255,255,255,0.8)]">
                                 Software

@@ -95,12 +95,12 @@ const FeedBacks = () => {
                 <div className='mx-auto w-full flex justify-center'>
                     <span className='mb-5 flex items-center border border-solid border-[#f5f5f5] rounded-full pr-4'><div className='rounded-full bg-[#8820DE] p-2'><Icon className='' icon="file-icons:shuriken" width="20" height="20" color='#fff' /></div><div className='ml-2 text-[#a7a7a7]'>Testimonios</div></span>
                 </div>
-                <h2 className='font-bold text-[45px] w-full xl:text-[70px] md:text-[60px] leading-[60px] text-[#222] md:w-[600px] mx-auto text-center'>Lo que piensan de nosotros</h2>
+                <h2 className='font-bold text-[35px] w-full xl:text-[70px] md:text-[60px] leading-[37px] md:leading-[60px] text-[#222] md:w-[600px] mx-auto text-center'>Lo que piensan de nosotros</h2>
             </div>
-            <div className="mt-10">
+            <div className="mt-10 overflow-hidden md:overflow-visible">
 
                 <Slider {...settingsTop}>
-                    <div className="border border-solid border-[#ddd] p-4 ml-4 mr-4 rounded-xl w-full">
+                    <div className="border border-solid border-[#ddd] p-4 ml-4 mr-4 rounded-xl w-full ">
                         <div>
                             <div className="flex">
                                 <Icon color="#FFAB00" icon="material-symbols:star" width="24" height="24" />

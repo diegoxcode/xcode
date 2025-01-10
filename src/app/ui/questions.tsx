@@ -53,8 +53,8 @@ const Questions = () => {
                     <div className='w-fit'>
                         <span className='mb-5 flex items-center border border-solid border-[#f5f5f5] rounded-full pr-4'><div className='rounded-full bg-[#8820DE] p-2'><Icon className='' icon="file-icons:shuriken" width="20" height="20" color='#fff' /></div><div className='ml-2 text-[#a7a7a7]'>Preguntas</div></span>
                     </div>
-                    <h2 className='w-full font-bold xl:text-[70px] text-[45px] md:text-[60px] leading-[60px] text-[#222] md:w-[600px]'>Nuestras preguntas más frecuentes</h2>
-                    <p className="text-[#767676] mt-5 md:mt-10 text-[19px] xl:text-[21px] md:text-[20px] w-[400px] md:w-9/12">Descubre las dudas más comunes de nuestros clientes y las respuestas que te ayudarán a conocer mejor nuestras soluciones.</p>
+                    <h2 className='w-full font-bold xl:text-[70px] text-[35px] md:text-[60px] md:leading-[60px] text-[#222] md:w-[600px] leading-[35px]'>Nuestras preguntas más frecuentes</h2>
+                    <p className="text-[#767676] mt-5 md:mt-10 text-[19px] xl:text-[21px] md:text-[20px] md:w-[400px] w-full xl:w-9/12">Descubre las dudas más comunes de nuestros clientes y las respuestas que te ayudarán a conocer mejor nuestras soluciones.</p>
                 </div>
                 <div>
                     <div className="flex flex-col gap-5 ml-0 xl:ml-10 md:ml-0 md:mt-10 mt-10">
