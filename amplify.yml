@@ -16,3 +16,4 @@ frontend:
     paths:
       - node_modules # Asegúrate de cachear las dependencias
       - .pnpm-store
+      - .next/cache/**/*
