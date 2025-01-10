@@ -5,11 +5,6 @@ import software from '../../../public/assets/software.png'
 const Services = () => {
     return (
         <div>
-            <div>
-                <div className='hidden md:block xl:max-w-screen-lg mx-auto md:max-w-screen-md xl:h-[320px] h-[180px] relative'>
-                    <Image className='w-full object-cover 2xl:top-[-340px] md:top-[-300px] xl:top-[-280px] top-[-250px] rounded-4xl absolute' src={software} width={700} height={700} alt='Software' />
-                </div>
-            </div>
             <div id="service" className='px-5 md:pt-10 pt-0 md:px-0 block md:flex xl:max-w-screen-xl mx-auto md:max-w-screen-md xl:flex-nowrap md:flex-wrap mt-20 xl:mt-40 2xl:mt-10 justify-between items-end relative'>
                 <div>
                     <span className='relative w-fit flex mt-10 md:mt-0 mb-5 items-center border border-solid border-[#f5f5f5] rounded-full pr-4'><div className='rounded-full bg-[#8820DE] p-2'><Icon className='' icon="file-icons:shuriken" width="20" height="20" color='#fff' /></div><div className='ml-2 text-[#a7a7a7]'>Soluciones de impacto</div></span>

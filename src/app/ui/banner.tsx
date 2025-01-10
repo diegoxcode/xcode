@@ -26,14 +26,14 @@ const Banner = () => {
     }, []);
 
     return (
-        <div className="" id="home">
+        <div className="overflow-hidden" id="home">
             <div className={`
-      bg-gradient-to-r from-[#8417E0] via-[#8F2CE2] to-[#8215DF] h-[100vh] w-full`}>
+      bg-gradient-to-r from-[#8417E0] via-[#8F2CE2] to-[#8215DF] w-full`}>
                 <div className="banner relative"></div>
                 <div
                     style={{ opacity }}
-                    className="flex sticky top-0 justify-center items-center h-screen md:max-h-96 xl:pt-[210px] md:pt-[120px] max-w-screen-lg mx-auto text-center">
-                    <div className='relative text-center mt-10 md:mt-24' style={{ transform: `scale(${scale})` }} >
+                    className="flex sticky top-0 justify-center items-center md:max-h-96 xl:pt-[210px] md:pt-[120px] max-w-screen-lg mx-auto text-center">
+                    <div className='relative text-center mt-56 md:mt-24' style={{ transform: `scale(${scale})` }} >
                         <div className='text-center  w-fit mx-auto mb-4'>
                             <span className='flex items-center border border-solid border-[#f5f5f5] rounded-full pr-4'><div className='rounded-full bg-[#dcb2ff] p-2'><Icon className='' icon="file-icons:shuriken" width="20" height="20" color='#fff' /></div><div className='ml-2 text-[#fff]'>Soluciones de impacto</div></span>
                         </div>
@@ -46,12 +46,12 @@ const Banner = () => {
                         </h1>
                         <h6 className="mt-5 md:mt-4 md:text-[18px] xl:text-[22px] w-11/12 md:w-[700px] mx-auto text-[#fff]">Herramientas necesarias para impulsar tu empresa, software a medida para tu día a día</h6>
                         <button className='hidden mx-auto md:block mt-10 md:mt-5 border border-solid rounded-full px-8 py-3 text-[#fff]'>{`Solicitar una demo`}</button>
-                        <div className='md:hidden px-5 mt-10 block xl:max-w-screen-lg mx-auto md:max-w-screen-md relative'>
 
-                            <Image className='w-full object-cover rounded-4xl' src={software} width={700} height={700} alt='Software' />
-
-                        </div>
                     </div>
+
+                </div>
+                <div className='px-5 mt-10 block xl:max-w-screen-lg md:top-[120px] top-[0px] mx-auto md:max-w-screen-md relative'>
+                    <Image className='w-full object-cover rounded-4xl' src={software} width={700} height={700} alt='Software' />
                 </div>
             </div>
         </div>
