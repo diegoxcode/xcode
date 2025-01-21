@@ -39,7 +39,7 @@ const Header = () => {
     return (
         <div className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "bg-[#fff]" : ""}`}>
             <div className="xl:max-w-screen-xl px-5 md:px-0 md:max-w-screen-md mx-auto flex justify-between items-center py-4">
-                <h1 className="font-bold text-2xl text-[#fff]"><Image src={isScrolled ? logoBlack : logo} width={60} height={60} alt="logo" /></h1>
+                <p className="font-bold text-2xl text-[#fff]"><Image src={isScrolled ? logoBlack : logo} width={60} height={60} alt="logo" /></p>
                 <div className="hidden xl:block">
                     <ul className="flex bg-[#fff] rounded-full w-full py-4">
                         {navLinks.map((link, index) => (

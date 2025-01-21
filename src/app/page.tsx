@@ -1,5 +1,4 @@
 
-import { Icon } from '@iconify/react/dist/iconify.js';
 import FeedBacks from './ui/feedbacks';
 import Questions from './ui/questions';
 import Banner from './ui/banner';

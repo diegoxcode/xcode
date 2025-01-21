@@ -3,9 +3,12 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
-    domains: ["png.pngtree.com", "img.freepik.com", "static.vecteezy.com"]
+    unoptimized: true,
+    domains: ["s3.amazonaws.com","png.pngtree.com", "img.freepik.com", "static.vecteezy.com","scontent.faqp1-1.fna.fbcdn.net","gestion.pe","mujeresejecutivas.pe","play-lh.googleusercontent.com"]
   },
-  distDir: "out"
+  distDir: "out",
+  output: 'export',
+  
 };
 
 export default nextConfig;

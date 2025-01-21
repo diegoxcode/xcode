@@ -1,6 +1,4 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import Image from "next/image";
-import software from '../../../public/assets/software.png'
 
 const Services = () => {
     return (
